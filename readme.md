@@ -1,4 +1,9 @@
-# 🧰 PASOS PARA HACER EL SCRIPT DE LA PILA LAMP
+# 1º - Captura en la que finalizo con éxito la instalación de la pila LAMP en Ubuntu server 
+para realizar un proyecto backend con php. También muestro los cambios guardados en mi 
+repositorio de git-hub.
+![Ejecución exitosa de la pila LAMP](./images/Exito_isntalacion_pila_LAMP.jpg)
+
+# 2º - PASOS PARA HACER EL SCRIPT DE LA PILA LAMP
 
 1. **`set -ex`**  
    - **`-e`**: le dice al script que **se detenga si ocurre cualquier error**, evitando que siga ejecutando pasos que podrían fallar.  
@@ -30,3 +35,5 @@
 8. **`cp ../php/index.php /var/www/html`**  
    Copia un **archivo PHP de prueba** (`index.php`) desde la carpeta del proyecto (`../php/`) al **directorio raíz del servidor web** (`/var/www/html`).  
    De esta forma, al abrir el dominio o la IP pública en el navegador, podemos **comprobar que PHP se ejecuta correctamente** antes que la página de información de Apache.
+
+![Captura del script en ejecución](./images/Captura_Script_Pila_LAMP.jpg)
