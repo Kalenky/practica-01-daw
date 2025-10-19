@@ -3,7 +3,7 @@ para realizar un proyecto backend con php. También muestro los cambios guardado
 repositorio de git-hub.
 ![Ejecución exitosa de la pila LAMP](./images/Exito_isntalacion_pila_LAMP.jpg)
 
-## 2º - PASOS PARA HACER EL SCRIPT DE LA PILA LAMP
+## 2º - Pasos a seguir para realizar los cambios en la pila LAMP
 
 1. **`set -ex`**  
    - **`-e`**: le dice al script que **se detenga si ocurre cualquier error**, evitando que siga ejecutando pasos que podrían fallar.  
@@ -38,5 +38,5 @@ repositorio de git-hub.
 
 ![Captura del script en ejecución](./images/Captura_Script_Pila_LAMP.jpg)
 
-## 3º - COMPROBACIÓN DE LA IP PÚBLICA DEL SERVIDOR PHP
+## 3º - Comprobación del correcto funcionamiento de la IP publica del server PHP
 ![Captura del correcto arranque del servidor PHP](./images/IP_Publica_serverPHP.jpg)
